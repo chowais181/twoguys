@@ -1,0 +1,46 @@
+@import "fonts";
+@import "skeleton";
+
+$body-font-family: 'LucidaGrande', sans-serif;
+
+
+$list-item-icon-margin: 12px -12px;
+
+
+$dialog-elevation: 11;
+$dialog-max-height: 100vh;
+
+
+$navigation-drawer-border-width: 0;
+
+$stepper-header-elevation: 0;
+
+$btn-text-transform: none;
+$btn-border-radius:15px;
+
+$data-table-dense-header-height: 40px;
+
+$expansion-panel-border-radius: 14px;
+
+$stepper-content-padding: 6px;
+
+.font-bold{
+ font-family: "Nunito-Bold", sans-serif !important;
+}
+
+.theme--light.v-list{
+    color: transparent;
+    background-color: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+}
+
+.theme--light.v-data-table{
+    color: gray;
+    min-height: 260px;
+
+}
+
+@media screen and (max-width: 960px){
+    .v-data-table > .v-data-table__wrapper > table > tbody > tr > td, .v-data-table > .v-data-table__wrapper > table > thead > tr > td, .v-data-table > .v-data-table__wrapper > table > tfoot > tr > td{
+        font-size: 12px;
+    }
+}
